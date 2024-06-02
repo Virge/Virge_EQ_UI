@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="us-ascii" ?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	<!-- IceSy Compact Inventory Window LS 2023 -->
-	<!-- Player Info Start -->
+<!-- IceSy Compact Inventory Window LS 2023 -->
+<!-- Player Info Start -->
 	<Label item="IW_Name">
 		<ScreenID>NameLabel</ScreenID>
 		<EQType>1</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -49,7 +49,7 @@
 	<Label item="IW_Level">
 		<ScreenID>LevelClassLabel</ScreenID>
 		<EQType>2</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -71,7 +71,7 @@
 	</Label>
 	<Label item="IW_Class">
 		<EQType>3</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
@@ -94,7 +94,7 @@
 	<Label item="IW_Deity">
 		<ScreenID>DeityLabel</ScreenID>
 		<EQType>4</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -114,8 +114,8 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Gear Tab -->
-	<!-- Row 1 -->
+<!-- Gear Tab -->
+<!-- Row 1 -->
 	<InvSlot item="InvSlot1">
 		<ScreenID>InvSlot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -186,7 +186,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>inventory/Equip 4</EQType>
 	</InvSlot>
-	<!-- Row 2 -->
+<!-- Row 2 -->
 	<InvSlot item="InvSlot15">
 		<ScreenID>InvSlot15</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -271,7 +271,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>inventory/Equip 16</EQType>
 	</InvSlot>
-	<!-- Row 3 -->
+<!-- Row 3 -->
 	<InvSlot item="InvSlot6">
 		<ScreenID>InvSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -356,7 +356,7 @@
 		<Background>A_InvFeet</Background>
 		<EQType>inventory/Equip 19</EQType>
 	</InvSlot>
-	<!-- Row 4 -->
+<!-- Row 4 -->
 	<InvSlot item="InvSlot13">
 		<ScreenID>InvSlot13</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -455,7 +455,7 @@
 	</StaticAnimation>
 	<Label item="IW_HP">
 		<ScreenID>HPLabel</ScreenID>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -479,7 +479,7 @@
 	<Label item="IW_CurrentHP">
 		<ScreenID>HPNumberLabel</ScreenID>
 		<EQType>17</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
@@ -501,7 +501,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IW_HPDivider">
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>87</X>
@@ -523,7 +523,7 @@
 	</Label>
 	<Label item="IW_MaxHP">
 		<EQType>18</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>95</X>
@@ -546,7 +546,7 @@
 	</Label>
 	<Label item="IW_MANA">
 		<ScreenID>MANALabel</ScreenID>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -570,7 +570,7 @@
 	<Label item="IW_CurrentMANA">
 		<ScreenID>MANANumberLabel</ScreenID>
 		<EQType>124</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
@@ -592,7 +592,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IW_MANADivider">
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>87</X>
@@ -614,7 +614,7 @@
 	</Label>
 	<Label item="IW_MaxMANA">
 		<EQType>125</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>95</X>
@@ -637,7 +637,7 @@
 	</Label>
 	<Label item="IW_ENDR">
 		<ScreenID>ENDRLabel</ScreenID>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -661,7 +661,7 @@
 	<Label item="IW_CurrentENDR">
 		<ScreenID>ENDRNumberLabel</ScreenID>
 		<EQType>126</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -683,7 +683,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IW_ENDRDivider">
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>87</X>
@@ -705,7 +705,7 @@
 	</Label>
 	<Label item="IW_MaxENDR">
 		<EQType>127</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>95</X>
@@ -728,7 +728,7 @@
 	</Label>
 	<Label item="IW_AC">
 		<ScreenID>ACLabel</ScreenID>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -752,7 +752,7 @@
 	<Label item="IW_ACNumber">
 		<ScreenID>ACNumberLabel</ScreenID>
 		<EQType>22</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>170</X>
@@ -774,7 +774,7 @@
 	</Label>
 	<Label item="IW_ATK">
 		<ScreenID>ATKLabel</ScreenID>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -798,7 +798,7 @@
 	<Label item="IW_ATKNumber">
 		<ScreenID>ATKNumberLabel</ScreenID>
 		<EQType>23</EQType>
-		<!--<Font>4</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>170</X>
@@ -876,11 +876,11 @@
 		<NoWrap>true</NoWrap>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	<!-- Player Info End -->
-	<!-- Player Stats Start -->
+<!-- Player Info End -->
+<!-- Player Stats Start -->
 	<Label item="IW_STR">
 		<ScreenID>STRLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -904,7 +904,7 @@
 	<Label item="IW_STRNumber">
 		<ScreenID>STRNumberLabel</ScreenID>
 		<EQType>5</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -926,7 +926,7 @@
 	</Label>
 	<Label item="IW_STA">
 		<ScreenID>STALabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -950,7 +950,7 @@
 	<Label item="IW_STANumber">
 		<ScreenID>STANumberLabel</ScreenID>
 		<EQType>6</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -972,7 +972,7 @@
 	</Label>
 	<Label item="IW_AGI">
 		<ScreenID>AGILabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -996,7 +996,7 @@
 	<Label item="IW_AGINumber">
 		<ScreenID>AGINumberLabel</ScreenID>
 		<EQType>8</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -1018,7 +1018,7 @@
 	</Label>
 	<Label item="IW_DEX">
 		<ScreenID>DEXLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -1042,7 +1042,7 @@
 	<Label item="IW_DEXNumber">
 		<ScreenID>DEXNumberLabel</ScreenID>
 		<EQType>7</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -1064,7 +1064,7 @@
 	</Label>
 	<Label item="IW_WIS">
 		<ScreenID>WISLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -1088,7 +1088,7 @@
 	<Label item="IW_WISNumber">
 		<ScreenID>WISNumberLabel</ScreenID>
 		<EQType>9</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -1110,7 +1110,7 @@
 	</Label>
 	<Label item="IW_INT">
 		<ScreenID>INTLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -1134,7 +1134,7 @@
 	<Label item="IW_INTNumber">
 		<ScreenID>INTNumberLabel</ScreenID>
 		<EQType>10</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -1156,7 +1156,7 @@
 	</Label>
 	<Label item="IW_CHA">
 		<ScreenID>CHALabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
@@ -1180,7 +1180,7 @@
 	<Label item="IW_CHANumber">
 		<ScreenID>CHANumberLabel</ScreenID>
 		<EQType>11</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -1200,11 +1200,11 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Player Stats End -->
-	<!-- Player Resistances Start -->
+<!-- Player Stats End -->
+<!-- Player Resistances Start -->
 	<Label item="IW_Poison">
 		<ScreenID>PoisonLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1228,7 +1228,7 @@
 	<Label item="IW_PoisonNumber">
 		<ScreenID>PoisonNumberLabel</ScreenID>
 		<EQType>12</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -1250,7 +1250,7 @@
 	</Label>
 	<Label item="IW_Magic">
 		<ScreenID>MagicLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1274,7 +1274,7 @@
 	<Label item="IW_MagicNumber">
 		<ScreenID>MagicNumberLabel</ScreenID>
 		<EQType>16</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -1296,7 +1296,7 @@
 	</Label>
 	<Label item="IW_Disease">
 		<ScreenID>DiseaseLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1320,7 +1320,7 @@
 	<Label item="IW_DiseaseNumber">
 		<ScreenID>DiseaseNumberLabel</ScreenID>
 		<EQType>13</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -1342,7 +1342,7 @@
 	</Label>
 	<Label item="IW_Fire">
 		<ScreenID>FireLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1366,7 +1366,7 @@
 	<Label item="IW_FireNumber">
 		<ScreenID>FireNumberLabel</ScreenID>
 		<EQType>14</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -1388,7 +1388,7 @@
 	</Label>
 	<Label item="IW_Cold">
 		<ScreenID>ColdLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1412,7 +1412,7 @@
 	<Label item="IW_ColdNumber">
 		<ScreenID>ColdNumberLabel</ScreenID>
 		<EQType>15</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -1434,7 +1434,7 @@
 	</Label>
 	<Label item="IW_Corruption">
 		<ScreenID>CorruptionLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1458,7 +1458,7 @@
 	<Label item="IW_CorruptionNumber">
 		<ScreenID>CorruptionNumberLabel</ScreenID>
 		<EQType>136</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>150</X>
@@ -1480,7 +1480,7 @@
 	</Label>
 	<Label item="IW_Weight">
 		<ScreenID>WeightLabel</ScreenID>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>90</X>
@@ -1503,7 +1503,7 @@
 	<Label item="IW_CurrentWeight">
 		<ScreenID>WeightNumberLabel</ScreenID>
 		<EQType>24</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
@@ -1524,7 +1524,7 @@
 		<AlignRight>true</AlignRight>
 	</Label>
 	<Label item="IW_WeightNumber">
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>170</X>
@@ -1546,7 +1546,7 @@
 	</Label>
 	<Label item="IW_MaxWeight">
 		<EQType>25</EQType>
-		<!--<Font>3</Font>-->
+
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>180</X>
@@ -1567,7 +1567,7 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	<!-- Inventory -->
+<!-- Inventory -->
 	<InvSlot item="InvSlot23">
 		<ScreenID>InvSlot23</ScreenID>
 		<Font>2</Font>
@@ -1585,7 +1585,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot24">
 		<ScreenID>InvSlot24</ScreenID>
@@ -1604,7 +1604,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot25">
 		<ScreenID>InvSlot25</ScreenID>
@@ -1623,7 +1623,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot26">
 		<ScreenID>InvSlot26</ScreenID>
@@ -1642,7 +1642,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot27">
 		<ScreenID>InvSlot27</ScreenID>
@@ -1661,7 +1661,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot28">
 		<ScreenID>InvSlot28</ScreenID>
@@ -1680,7 +1680,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot29">
 		<ScreenID>InvSlot29</ScreenID>
@@ -1699,7 +1699,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot30">
 		<ScreenID>InvSlot30</ScreenID>
@@ -1718,7 +1718,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot31">
 		<ScreenID>InvSlot31</ScreenID>
@@ -1737,7 +1737,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot32">
 		<ScreenID>InvSlot32</ScreenID>
@@ -1756,7 +1756,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 	</InvSlot>
 	<InvSlot item="InvSlot33">
 		<ScreenID>InvSlot33</ScreenID>
@@ -1796,7 +1796,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 	</InvSlot>
-	<!-- Coins -->
+<!-- Coins -->
 	<Button item="IW_Money0">
 		<ScreenID>IW_Money0</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1809,9 +1809,9 @@
 			<CY>16</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
+<!--<RadioGroup/>-->
 		<Text>9999</Text>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
@@ -1835,9 +1835,9 @@
 			<CY>16</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
+<!--<RadioGroup/>-->
 		<Text>9999</Text>
 		<Template>BDT_GoldCoin</Template>
 		<DecalOffset>
@@ -1861,9 +1861,9 @@
 			<CY>16</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
+<!--<RadioGroup/>-->
 		<Text>9999</Text>
 		<Template>BDT_SilverCoin</Template>
 		<DecalOffset>
@@ -1887,9 +1887,9 @@
 			<CY>16</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
+<!--<RadioGroup/>-->
 		<Text>9999</Text>
 		<Template>BDT_CopperCoin</Template>
 		<DecalOffset>
@@ -2001,7 +2001,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	<!-- Krono -->
+<!-- Krono -->
 	<Label item="IW_AltCurr_Krono">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -2140,7 +2140,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 		<FillTint>
 			<R>0</R>
 			<G>255</G>
@@ -2240,7 +2240,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+<!--<TooltipReference/>-->
 		<FillTint>
 			<R>255</R>
 			<G>150</G>
@@ -2262,7 +2262,7 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-	<!-- IW Buttons -->
+<!-- IW Buttons -->
 	<Button item="IW_FindItemButton">
 		<ScreenID>IW_FindItemButton</ScreenID>
 		<Font>2</Font>
@@ -2625,7 +2625,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>ClassAnim</Pieces>
 	</Screen>
-	<!-- Tab -->
+<!-- Tab -->
 	<Page item="IW_InvPage">
 		<ScreenID>InvPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2739,10 +2739,11 @@
 		<Pieces>InvSlotKrono</Pieces>
 		<Pieces>IW_ConsumeKrono</Pieces>
 	</Page>
-	<!-- Stats Tab -->
-	<!-- General Stats-->
+<!-- Stats Tab -->
+
+<!-- General Stats-->
 	<Label item="IWS_HP">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -2763,7 +2764,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_CurrentHP">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>17</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -2786,7 +2787,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_HPDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>95</X>
@@ -2807,7 +2808,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxHP">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>18</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -2831,7 +2832,7 @@
 	</Label>
 	<Label item="IWS_Mana">
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>5</X>
 			<Y>18</Y>
@@ -2851,7 +2852,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_CurrentMana">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>124</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -2874,7 +2875,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_ManaDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>95</X>
@@ -2895,7 +2896,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxMana">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>125</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -2919,7 +2920,7 @@
 	</Label>
 	<Label item="IWS_Endurance">
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>5</X>
 			<Y>32</Y>
@@ -2939,7 +2940,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_CurrentEndurance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>126</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -2962,7 +2963,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_EnduranceDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>95</X>
@@ -2983,7 +2984,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxEndurance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>127</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3007,7 +3008,7 @@
 	</Label>
 	<Label item="IWS_ArmorClass">
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>155</X>
 			<Y>5</Y>
@@ -3028,7 +3029,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentArmorClass">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>22</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3052,7 +3053,7 @@
 	</Label>
 	<Label item="IWS_ACDivider">
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>255</X>
 			<Y>5</Y>
@@ -3074,7 +3075,7 @@
 	<Label item="IWS_EVASION">
 		<ScreenID>EvasionLabel</ScreenID>
 		<EQType>403</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>260</X>
@@ -3097,7 +3098,7 @@
 		<TooltipReference>Evasion: Chance to avoid melee damage</TooltipReference>
 	</Label>
 	<Label item="IWS_Attack">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>155</X>
@@ -3118,7 +3119,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_CurrentAttack">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>23</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3142,7 +3143,7 @@
 	</Label>
 	<Label item="IWS_ATKDivider">
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>255</X>
 			<Y>18</Y>
@@ -3164,7 +3165,7 @@
 	<Label item="IWS_ACCURACY">
 		<ScreenID>AccuracyNumberLabel</ScreenID>
 		<EQType>402</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>260</X>
@@ -3187,7 +3188,7 @@
 		<TooltipReference>Accuracy: Chance to land a hit</TooltipReference>
 	</Label>
 	<Label item="IWS_Haste">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>155</X>
@@ -3208,7 +3209,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_CurrentHaste">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>211</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3231,7 +3232,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_HastePercent">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>264</X>
@@ -3253,7 +3254,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Velocity">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>155</X>
@@ -3275,7 +3276,7 @@
 		<TooltipReference>Shows the speed at which you are moving</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentVelocity">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>401</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3297,9 +3298,9 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>false</AlignLeft>
 	</Label>
-	<!-- Stats -->
+<!-- Stats -->
 	<Label item="IWS_StatsLabel">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>52</X>
@@ -3321,7 +3322,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Strength">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -3343,7 +3344,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentStrength">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>238</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3366,7 +3367,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_StrengthDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -3388,7 +3389,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxStrength">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>264</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3411,7 +3412,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_StrengthPlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -3433,7 +3434,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicStrength">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>251</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3456,7 +3457,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Stamina">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -3478,7 +3479,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentStamina">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>239</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3501,7 +3502,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_StaminaDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -3523,7 +3524,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxStamina">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>265</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3546,7 +3547,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_StaminaPlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -3568,7 +3569,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicStamina">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>252</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3591,7 +3592,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Intelligence">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -3613,7 +3614,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentIntelligence">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>243</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3636,7 +3637,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_IntelligenceDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -3658,7 +3659,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxIntelligence">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>269</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3681,7 +3682,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_IntelligencePlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -3703,7 +3704,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicIntelligence">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>256</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3726,7 +3727,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Wisdom">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -3747,7 +3748,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_CurrentWisdom">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>242</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3770,7 +3771,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_WisdomDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -3791,7 +3792,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxWisdom">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>268</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3814,7 +3815,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_WisdomPlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -3836,7 +3837,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicWisdom">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>255</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3859,7 +3860,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Agility">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -3881,7 +3882,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentAgility">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>241</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3904,7 +3905,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_AgilityDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -3925,7 +3926,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxAgility">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>267</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3948,7 +3949,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_AgilityPlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -3970,7 +3971,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicAgility">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>254</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -3993,7 +3994,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Dexterity">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4015,7 +4016,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentDexterity">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>240</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4038,7 +4039,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_DexterityDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -4059,7 +4060,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxDexterity">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>266</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4082,7 +4083,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_DexterityPlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4104,7 +4105,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicDexterity">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>253</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4127,7 +4128,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Charisma">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4149,7 +4150,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentCharisma">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>244</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4172,7 +4173,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_CharismaDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -4193,7 +4194,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Label item="IWS_MaxCharisma">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>270</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4216,7 +4217,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CharismaPlus">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4238,7 +4239,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_HeroicCharisma">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>257</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4272,9 +4273,9 @@
 		</Size>
 		<Animation>A_DividerMiddle</Animation>
 	</StaticAnimation>
-	<!-- Resists -->
+<!-- Resists -->
 	<Label item="IWS_ResistsLabel">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4296,7 +4297,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_Magic">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4318,7 +4319,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentMagic">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>249</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4341,7 +4342,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MagicDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4363,7 +4364,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxMagic">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>275</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4386,7 +4387,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Fire">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4408,7 +4409,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentFire">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>247</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4431,7 +4432,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_FireDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4453,7 +4454,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxFire">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>273</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4476,7 +4477,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Cold">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4498,7 +4499,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentCold">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>248</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4521,7 +4522,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_ColdDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4543,7 +4544,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxCold">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>274</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4566,7 +4567,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Disease">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4588,7 +4589,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentDisease">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>246</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4611,7 +4612,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_DiseaseDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4633,7 +4634,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxDisease">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>272</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4656,7 +4657,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Poison">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4678,7 +4679,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentPoison">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>245</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4701,7 +4702,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_PoisonDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4723,7 +4724,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxPoison">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>271</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4746,7 +4747,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Corruption">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -4768,7 +4769,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CurrentCorruption">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>250</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4791,7 +4792,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_CorruptionDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>91</X>
@@ -4813,7 +4814,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxCorruption">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>276</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4835,9 +4836,9 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	<!-- Heroic Mods -->
+<!-- Heroic Mods -->
 	<Label item="IWS_HeroicModsLabel">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>185</X>
@@ -4859,7 +4860,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Accuracy">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -4882,7 +4883,7 @@
 		<TooltipReference>Adds to your ability to make a successful melee attack</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentAccuracy">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>222</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4905,7 +4906,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_AccuracyDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -4927,7 +4928,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxAccuracy">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>284</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4950,7 +4951,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Avoidance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -4973,7 +4974,7 @@
 		<TooltipReference>Adds to your ability to avoid incoming melee attacks</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentAvoidance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>221</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -4996,7 +4997,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_AvoidanceDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5018,7 +5019,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxAvoidance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>283</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5041,7 +5042,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_CombatEffects">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5064,7 +5065,7 @@
 		<TooltipReference>Increases the rate at which you will trigger proc spells during melee</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentCombatEffects">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>216</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5087,7 +5088,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_CombatEffectsDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5109,7 +5110,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxCombatEffects">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>278</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5132,7 +5133,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_DamageShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5155,7 +5156,7 @@
 		<TooltipReference>Adds damage to any damage shield effect you have</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentDamageShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>218</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5178,7 +5179,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_DamageShieldingDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5200,7 +5201,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxDamageShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>280</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5223,7 +5224,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_DamageShieldMitigation">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5246,7 +5247,7 @@
 		<TooltipReference>Reduces the damage you take from damage shield effects on your target</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentDamageShieldMitigation">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>220</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5269,7 +5270,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_DamageShieldMitigationDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5291,7 +5292,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxDamageShieldMitigation">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>282</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5314,7 +5315,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_DoTShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5337,7 +5338,7 @@
 		<TooltipReference>Reduces the base damage of incoming damage-over-time spell attacks</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentDoTShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>219</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5360,7 +5361,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_DoTShieldingDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5382,7 +5383,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxDoTShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>281</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5405,7 +5406,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Shielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5428,7 +5429,7 @@
 		<TooltipReference>Reduces the base damage of incoming melee attacks</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>217</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5451,7 +5452,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_ShieldingDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5473,7 +5474,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxShielding">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>279</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5496,7 +5497,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_SpellShield">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5519,7 +5520,7 @@
 		<TooltipReference>Reduces the base damage of incoming instant spell attacks</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentSpellShield">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>215</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5542,7 +5543,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_SpellShieldDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5564,7 +5565,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxSpellShield">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>277</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5587,7 +5588,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_StrikeThrough">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5610,7 +5611,7 @@
 		<TooltipReference>Allows your melee attacks to bypass your opponent's active defenses</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentStrikeThrough">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>224</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5633,7 +5634,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_StrikeThroughDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5655,7 +5656,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxStrikeThrough">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>286</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5678,7 +5679,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_StunResist">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -5701,7 +5702,7 @@
 		<TooltipReference>Increases the chance for you to resist stun effects</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentStunResist">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>223</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5724,7 +5725,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_StunResistDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -5746,7 +5747,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxStunResist">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>285</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5768,9 +5769,9 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	<!-- Spell Mods -->
+<!-- Spell Mods -->
 	<Label item="IWS_SpellModsLabel">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -5792,7 +5793,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_HealAmount">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -5815,7 +5816,7 @@
 		<TooltipReference>Adds to the effectiveness of your healing spells</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentHealAmount">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>225</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5838,7 +5839,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_SpellDamage">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -5861,7 +5862,7 @@
 		<TooltipReference>Adds to the effectiveness of your damage spells</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentSpellDamage">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>226</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5884,7 +5885,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_Clairvoyance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -5907,7 +5908,7 @@
 		<TooltipReference>Adds a chance to return mana to you on a successful spell cast</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentClairvoyance">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>227</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5930,7 +5931,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_Luck">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -5953,7 +5954,7 @@
 		<TooltipReference>Has a chance to improve the effects of Heroic Mods, skill successes, and critical potency</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentLuck">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>416</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -5975,9 +5976,9 @@
 		<AlignRight>true</AlignRight>
 		<AlignLeft>false</AlignLeft>
 	</Label>
-	<!-- Skill Damage Mod -->
+<!-- Skill Damage Mod -->
 	<Label item="IWS_SkillDamageModLabel">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>165</X>
@@ -5999,7 +6000,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Bash">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6022,7 +6023,7 @@
 		<TooltipReference>Adds to damage when using the Bash skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentBash">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>228</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6045,7 +6046,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_BashDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6067,7 +6068,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxBash">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>287</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6090,7 +6091,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Backstab">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6113,7 +6114,7 @@
 		<TooltipReference>Adds to damage when using the Backstab skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentBackstab">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>229</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6136,7 +6137,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_BackstabDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6158,7 +6159,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxBackstab">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>288</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6182,7 +6183,7 @@
 		<Style_VScroll>False</Style_VScroll>
 	</Label>
 	<Label item="IWS_DragonPunch">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6205,7 +6206,7 @@
 		<TooltipReference>Adds to damage when using the Dragon Punch skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentDragonPunch">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>230</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6228,7 +6229,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_DragonPunchDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6250,7 +6251,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxDragonPunch">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>289</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6273,7 +6274,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_EagleStrike">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6296,7 +6297,7 @@
 		<TooltipReference>Adds to damage when using the Eagle Strike skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentEagleStrike">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>231</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6319,7 +6320,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_EagleStrikeDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6341,7 +6342,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxEagleStrike">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>290</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6364,7 +6365,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_FlyingKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6387,7 +6388,7 @@
 		<TooltipReference>Adds to damage when using the Flying Kick skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentFlyingKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>232</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6410,7 +6411,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_FlyingKickDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6432,7 +6433,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxFlyingKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>291</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6455,7 +6456,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Frenzy">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6478,7 +6479,7 @@
 		<TooltipReference>Adds to damage when using the Frenzy skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentFrenzy">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>236</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6501,7 +6502,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_FrenzyDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6523,7 +6524,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxFrenzy">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>295</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6546,7 +6547,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_Kick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6569,7 +6570,7 @@
 		<TooltipReference>Adds to damage when using the Kick skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>233</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6592,7 +6593,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_KickDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6614,7 +6615,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>292</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6637,7 +6638,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_RoundKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6660,7 +6661,7 @@
 		<TooltipReference>Adds to damage when using the Round Kick skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentRoundKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>234</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6683,7 +6684,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_RoundKickDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6705,7 +6706,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxRoundKick">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>293</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6728,7 +6729,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_TigerClaw">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>145</X>
@@ -6751,7 +6752,7 @@
 		<TooltipReference>Adds to damage when using the Tiger Claw skill</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentTigerClaw">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>235</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6774,7 +6775,7 @@
 		<AlignLeft>false</AlignLeft>
 	</Label>
 	<Label item="IWS_TigerClawDivider">
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>255</X>
@@ -6796,7 +6797,7 @@
 		<AlignLeft>true</AlignLeft>
 	</Label>
 	<Label item="IWS_MaxTigerClaw">
-		<Font>2</Font>
+		<Font>3</Font>
 		<EQType>294</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6818,7 +6819,7 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	<!-- Regen -->
+<!-- Regen -->
 	<Label item="IWS_RegenLabel">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -6835,7 +6836,7 @@
 			<G>255</G>
 			<B>0</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6857,7 +6858,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6881,7 +6882,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6903,7 +6904,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6927,7 +6928,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6949,7 +6950,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6973,13 +6974,13 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<Font>2</Font>
+		<Font>3</Font>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 		<AlignLeft>false</AlignLeft>
 	</Label>
-	<!--Vitality-->
+<!--Vitality-->
 	<Label item="IWS_Vitality">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7105,7 +7106,7 @@
 			<CX>409</CX>
 			<CY>265</CY>
 		</Size>
-		<!-- START of Top Section -->
+<!-- START of Top Section -->
 		<Pieces>IWS_HP</Pieces>
 		<Pieces>IWS_CurrentHP</Pieces>
 		<Pieces>IWS_HPDivider</Pieces>
@@ -7131,8 +7132,8 @@
 		<Pieces>IWS_HastePercent</Pieces>
 		<Pieces>IWS_Velocity</Pieces>
 		<Pieces>IWS_CurrentVelocity</Pieces>
-		<!-- END of Top Section -->
-		<!-- START of Stats Section-->
+<!-- END of Top Section -->
+<!-- START of Stats Section-->
 		<Pieces>IWS_RegenLabel</Pieces>
 		<Pieces>IWS_StatsLabel</Pieces>
 		<Pieces>IWS_Strength</Pieces>
@@ -7178,8 +7179,8 @@
 		<Pieces>IWS_CharismaPlus</Pieces>
 		<Pieces>IWS_HeroicCharisma</Pieces>
 		<Pieces>IWS_Seperator2</Pieces>
-		<!-- END of Stats Section-->
-		<!-- START of Resists Section-->
+<!-- END of Stats Section-->
+<!-- START of Resists Section-->
 		<Pieces>IWS_ResistsLabel</Pieces>
 		<Pieces>IWS_Magic</Pieces>
 		<Pieces>IWS_CurrentMagic</Pieces>
@@ -7205,8 +7206,8 @@
 		<Pieces>IWS_CurrentCorruption</Pieces>
 		<Pieces>IWS_CorruptionDivider</Pieces>
 		<Pieces>IWS_MaxCorruption</Pieces>
-		<!-- END of Resists Section-->
-		<!-- START of Mods Section-->
+<!-- END of Resists Section-->
+<!-- START of Mods Section-->
 		<Pieces>IWS_HeroicModsLabel</Pieces>
 		<Pieces>IWS_SpellModsLabel</Pieces>
 		<Pieces>IWS_CombatEffects</Pieces>
@@ -7263,8 +7264,8 @@
 		<Pieces>IWS_CurrentClairvoyance</Pieces>
 		<Pieces>IWS_Luck</Pieces>
 		<Pieces>IWS_CurrentLuck</Pieces>
-		<!-- END of Mods Section-->
-		<!-- START of Skill Damage Mod Section-->
+<!-- END of Mods Section-->
+<!-- START of Skill Damage Mod Section-->
 		<Pieces>IWS_SkillDamageModLabel</Pieces>
 		<Pieces>IWS_Bash</Pieces>
 		<Pieces>IWS_CurrentBash</Pieces>
@@ -7302,18 +7303,25 @@
 		<Pieces>IWS_CurrentFrenzy</Pieces>
 		<Pieces>IWS_FrenzyDivider</Pieces>
 		<Pieces>IWS_MaxFrenzy</Pieces>
-		<!-- END of Skill Damage Mod Section-->
-		<!-- START of Vitality Section-->
+<!-- END of Skill Damage Mod Section-->
+<!-- START of Vitality Section-->
 		<Pieces>IWS_Vitality</Pieces>
 		<Pieces>IWS_VitalityGauge</Pieces>
 		<Pieces>IWS_AAVitality</Pieces>
 		<Pieces>IWS_AAVitalityGauge</Pieces>
-		<!-- END of Vitality Section-->
-		<Font>2</Font>
+<!-- END of Vitality Section-->
+		<Font>3</Font>
 	</Page>
-	<!-- Level Tab -->
-	<!-- Mercenary Tab -->
-	<!-- Inventory -->
+
+
+
+
+
+
+
+<!-- Level Tab -->
+<!-- Mercenary Tab -->
+<!-- Inventory -->
 	<Label item="IWM_HP">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -9054,7 +9062,7 @@
 		<Pieces>IWM_MercPercHold</Pieces>
 		<Pieces>IWM_MercExpGauge</Pieces>
 	</Page>
-	<!-- Coin Tab-->
+<!-- Coin Tab-->
 	<Combobox item="IW_HeroicUpgradeSelection">
 		<ScreenID>IW_HeroicUpgradeSelection</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -9105,7 +9113,7 @@
 		<TooltipReference>Upgrade current character to a fully equipped Heroic Character.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- Alternate Currency -->
+<!-- Alternate Currency -->
 	<Label item="IW_AltCurr_Alternate">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -9310,7 +9318,7 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<!-- Tab -->
+<!-- Tab -->
 	<Page item="IW_AltCurrPage">
 		<ScreenID>AltCurrPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9342,8 +9350,8 @@
 		<Pieces>IW_UpgradeCharacter</Pieces>
 		<Pieces>IW_HeroicUpgradeSelection</Pieces>
 	</Page>
-	<!-- START PERSONA -->
-	<!-- IS_CHARM		1 -->
+<!-- START PERSONA -->
+<!-- IS_CHARM		1 -->
 	<InvSlot item="PersonaInvSlot0">
 		<ScreenID>PersonaInvSlot0</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9358,7 +9366,7 @@
 		<Background>A_InvCharm</Background>
 		<EQType>personaInventory/Equip 0</EQType>
 	</InvSlot>
-	<!-- IS_L_EAR		1 -->
+<!-- IS_L_EAR		1 -->
 	<InvSlot item="PersonaInvSlot1">
 		<ScreenID>PersonaInvSlot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9373,7 +9381,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>personaInventory/Equip 1</EQType>
 	</InvSlot>
-	<!-- IS_HEAD		2 -->
+<!-- IS_HEAD		2 -->
 	<InvSlot item="PersonaInvSlot2">
 		<ScreenID>PersonaInvSlot2</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9388,7 +9396,7 @@
 		<Background>A_InvHead</Background>
 		<EQType>personaInventory/Equip 2</EQType>
 	</InvSlot>
-	<!-- IS_FACE		3 -->
+<!-- IS_FACE		3 -->
 	<InvSlot item="PersonaInvSlot3">
 		<ScreenID>PersonaInvSlot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9403,7 +9411,7 @@
 		<Background>A_InvFace</Background>
 		<EQType>personaInventory/Equip 3</EQType>
 	</InvSlot>
-	<!-- IS_R_EAR		4 -->
+<!-- IS_R_EAR		4 -->
 	<InvSlot item="PersonaInvSlot4">
 		<ScreenID>PersonaInvSlot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9418,7 +9426,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>personaInventory/Equip 4</EQType>
 	</InvSlot>
-	<!-- IS_NECK		5 -->
+<!-- IS_NECK		5 -->
 	<InvSlot item="PersonaInvSlot5">
 		<ScreenID>PersonaInvSlot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9433,7 +9441,7 @@
 		<Background>A_InvNeck</Background>
 		<EQType>personaInventory/Equip 5</EQType>
 	</InvSlot>
-	<!-- IS_SHOULDERS	6 -->
+<!-- IS_SHOULDERS	6 -->
 	<InvSlot item="PersonaInvSlot6">
 		<ScreenID>PersonaInvSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9448,7 +9456,7 @@
 		<Background>A_InvShoulders</Background>
 		<EQType>personaInventory/Equip 6</EQType>
 	</InvSlot>
-	<!-- IS_ARMS		7 -->
+<!-- IS_ARMS		7 -->
 	<InvSlot item="PersonaInvSlot7">
 		<ScreenID>PersonaInvSlot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9463,7 +9471,7 @@
 		<Background>A_InvArms</Background>
 		<EQType>personaInventory/Equip 7</EQType>
 	</InvSlot>
-	<!-- IS_ABOUT_BODY	8 -->
+<!-- IS_ABOUT_BODY	8 -->
 	<InvSlot item="PersonaInvSlot8">
 		<ScreenID>PersonaInvSlot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9478,7 +9486,7 @@
 		<Background>A_InvAboutBody</Background>
 		<EQType>personaInventory/Equip 8</EQType>
 	</InvSlot>
-	<!-- IS_L_WRIST		9 -->
+<!-- IS_L_WRIST		9 -->
 	<InvSlot item="PersonaInvSlot9">
 		<ScreenID>PersonaInvSlot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9493,7 +9501,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>personaInventory/Equip 9</EQType>
 	</InvSlot>
-	<!-- IS_R_WRIST		10 -->
+<!-- IS_R_WRIST		10 -->
 	<InvSlot item="PersonaInvSlot10">
 		<ScreenID>PersonaInvSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9508,7 +9516,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>personaInventory/Equip 10</EQType>
 	</InvSlot>
-	<!-- IS_RANGE		11 -->
+<!-- IS_RANGE		11 -->
 	<InvSlot item="PersonaInvSlot11">
 		<ScreenID>PersonaInvSlot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9523,7 +9531,7 @@
 		<Background>A_InvRange</Background>
 		<EQType>personaInventory/Equip 11</EQType>
 	</InvSlot>
-	<!-- IS_HANDS		12 -->
+<!-- IS_HANDS		12 -->
 	<InvSlot item="PersonaInvSlot12">
 		<ScreenID>PersonaInvSlot12</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9538,7 +9546,7 @@
 		<Background>A_InvHands</Background>
 		<EQType>personaInventory/Equip 12</EQType>
 	</InvSlot>
-	<!-- IS_PRIMARY		13 -->
+<!-- IS_PRIMARY		13 -->
 	<InvSlot item="PersonaInvSlot13">
 		<ScreenID>PersonaInvSlot13</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9553,7 +9561,7 @@
 		<Background>A_InvPrimary</Background>
 		<EQType>personaInventory/Equip 13</EQType>
 	</InvSlot>
-	<!-- IS_SECONDARY	14 -->
+<!-- IS_SECONDARY	14 -->
 	<InvSlot item="PersonaInvSlot14">
 		<ScreenID>PersonaInvSlot14</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9568,7 +9576,7 @@
 		<Background>A_InvSecondary</Background>
 		<EQType>personaInventory/Equip 14</EQType>
 	</InvSlot>
-	<!-- IS_L_FINGERS	15 -->
+<!-- IS_L_FINGERS	15 -->
 	<InvSlot item="PersonaInvSlot15">
 		<ScreenID>PersonaInvSlot15</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9583,7 +9591,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>personaInventory/Equip 15</EQType>
 	</InvSlot>
-	<!-- IS_R_FINGERS	16 -->
+<!-- IS_R_FINGERS	16 -->
 	<InvSlot item="PersonaInvSlot16">
 		<ScreenID>PersonaInvSlot16</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9598,7 +9606,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>personaInventory/Equip 16</EQType>
 	</InvSlot>
-	<!-- IS_CHEST		17 -->
+<!-- IS_CHEST		17 -->
 	<InvSlot item="PersonaInvSlot17">
 		<ScreenID>PersonaInvSlot17</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9613,7 +9621,7 @@
 		<Background>A_InvChest</Background>
 		<EQType>personaInventory/Equip 17</EQType>
 	</InvSlot>
-	<!-- IS_LEGS		18 -->
+<!-- IS_LEGS		18 -->
 	<InvSlot item="PersonaInvSlot18">
 		<ScreenID>PersonaInvSlot18</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9628,7 +9636,7 @@
 		<Background>A_InvLegs</Background>
 		<EQType>personaInventory/Equip 18</EQType>
 	</InvSlot>
-	<!-- IS_FEET		19 -->
+<!-- IS_FEET		19 -->
 	<InvSlot item="PersonaInvSlot19">
 		<ScreenID>PersonaInvSlot19</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9643,7 +9651,7 @@
 		<Background>A_InvFeet</Background>
 		<EQType>personaInventory/Equip 19</EQType>
 	</InvSlot>
-	<!-- IS_WAIST		20 -->
+<!-- IS_WAIST		20 -->
 	<InvSlot item="PersonaInvSlot20">
 		<ScreenID>PersonaInvSlot20</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9658,7 +9666,7 @@
 		<Background>A_InvWaist</Background>
 		<EQType>personaInventory/Equip 20</EQType>
 	</InvSlot>
-	<!-- IS_POWER_SOURCE		21 -->
+<!-- IS_POWER_SOURCE		21 -->
 	<InvSlot item="PersonaInvSlot21">
 		<ScreenID>PersonaInvSlot21</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -9673,7 +9681,7 @@
 		<Background>A_InvPowerSource</Background>
 		<EQType>personaInventory/Equip 21</EQType>
 	</InvSlot>
-	<!-- IS_AMMO		22 -->
+<!-- IS_AMMO		22 -->
 	<InvSlot item="PersonaInvSlot22">
 		<ScreenID>PersonaInvSlot22</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -10003,7 +10011,7 @@
 			<CX></CX>
 			<CY></CY>
 		</Size>
-		<!-- Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used. -->
+<!-- Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used. -->
 	</StaticAnimation>
 	<Screen item="IWP_CharacterView">
 		<ScreenID>IWP_CharacterView</ScreenID>
@@ -10079,7 +10087,7 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	<!-- Final Window -->
+<!-- Final Window -->
 	<TabBox item ="IW_Subwindows">
 		<ScreenID>IW_Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>

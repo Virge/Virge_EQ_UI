@@ -49,8 +49,8 @@
       <CY>22</CY>
     </Size>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
+      <R>3</R>
+      <G>227</G>
       <B>255</B>
     </TextColor>
     <DecalSize>
@@ -64,7 +64,7 @@
       <Disabled>A_SmallBtnDisabled</Disabled>
       <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
     </ButtonDrawTemplate>
-    <Text>Ach</Text>
+    <Text>Hero's</Text>
     <TooltipReference>Achievements</TooltipReference>
   </Button>
   <Button item="SELW_RewardSelectionWnd">
