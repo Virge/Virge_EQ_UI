@@ -14,7 +14,7 @@
       <CY>20</CY>
     </Size>
     <SliderArt>SDT_DefSlider</SliderArt>
-    <Font>2</Font>
+    <Font>4</Font>
   </Slider>
   <Editbox item="QTYW_SliderInput">
     <ScreenID>QTYW_SliderInput</ScreenID>
@@ -34,7 +34,7 @@
       <G>255</G>
       <B>255</B>
     </TextColor>
-    <Font>2</Font>
+    <Font>4</Font>
   </Editbox>
   <Button item="QTYW_Accept_Button">
     <ScreenID>QTYW_Accept_Button</ScreenID>
@@ -45,7 +45,7 @@
       <Y>27</Y>
     </Location>
     <Size>
-      <CX>39</CX>
+      <CX>63</CX>
       <CY>20</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
@@ -65,32 +65,34 @@
       <Disabled>A_BtnDisabled</Disabled>
       <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
     </ButtonDrawTemplate>
-    <Font>2</Font>
+    <Font>4</Font>
   </Button>
   <Screen item="QuantityWnd">
     <!--<ScreenID/>-->
     <!--<Font/>-->
+    <ScreenID>QuantityWnd</ScreenID>
     <RelativePosition>false</RelativePosition>
     <Location>
-      <X>200</X>
-      <Y>200</Y>
+      <X>0</X>
+      <Y>0</Y>
     </Location>
     <Size>
-      <CX>124</CX>
-      <CY>59</CY>
+      <CX>154</CX>
+      <CY>72</CY>
     </Size>
-    <Text>Sparxx - Quantity</Text>
+    <Text>Quantity</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-    <Style_Titlebar>False</Style_Titlebar>
-    <Style_Closebox>False</Style_Closebox>
+    <Style_Titlebar>true</Style_Titlebar>
+		<Style_Qmarkbox>true</Style_Qmarkbox>
+		<Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>QTYW_Slider</Pieces>
     <Pieces>QTYW_SliderInput</Pieces>
     <Pieces>QTYW_Accept_Button</Pieces>
-    <Font>2</Font>
+    <Font>4</Font>
   </Screen>
 </XML>
