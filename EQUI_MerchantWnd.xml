@@ -4,7 +4,7 @@
 
 	<Label item ="MW_MerchantName">
 		<ScreenID>MW_MerchantName</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
@@ -74,7 +74,7 @@
 			<Heading></Heading>
 		</Columns>
 		<Columns>
-			<Width>140</Width>
+			<Width>230</Width>
 			<Heading>Item Name</Heading>
 		</Columns>
 		<Columns>
@@ -279,7 +279,7 @@
 	
 	<Button item = "MW_SelectedItem">
 		<ScreenID>MW_SelectedItem</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -305,7 +305,7 @@
 
 	<Label item ="MW_SelectedItemLabel">
 		<ScreenID>MW_SelectedItemLabel</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -352,7 +352,7 @@
 
 	<Label item ="MW_SelectedPriceLabel">
 		<ScreenID>MW_SelectedPriceLabel</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -376,7 +376,7 @@
 
 	<Button item = "MW_Buy_Button">
 		<ScreenID>MW_Buy_Button</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -401,7 +401,7 @@
 	
 	<Button item = "MW_Buy_MarketPlace_Button">
 		<ScreenID>MW_Buy_MarketPlace_Button</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -613,7 +613,7 @@
 
 	<Button item = "MW_Done_Button">
 		<ScreenID>MW_Done_Button</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -662,7 +662,7 @@
 	
 	<Button item = "MW_Sell_Button">
 		<ScreenID>MW_Sell_Button</ScreenID>
-		<!--<Font>3</Font>-->
+		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
