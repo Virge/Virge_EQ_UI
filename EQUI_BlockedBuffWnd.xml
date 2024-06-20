@@ -1,83 +1,77 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	<Button item = "BW_AddSpellToBlock">
-		<ScreenID>BW_AddSpellToBlock</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>7</LeftAnchorOffset>
-		<TopAnchorOffset>30</TopAnchorOffset>
-		<RightAnchorOffset>110</RightAnchorOffset>
-		<BottomAnchorOffset>10</BottomAnchorOffset>
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-				
-		<!--<Location>
+  <Button item = "BW_AddSpellToBlock">
+    <ScreenID>BW_AddSpellToBlock</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>7</LeftAnchorOffset>
+    <TopAnchorOffset>30</TopAnchorOffset>
+    <RightAnchorOffset>110</RightAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <!--<Location>
 			<X>-1</X>
 			<Y>-1</Y>
 		</Location> -->
-		<Size>
-			<CX>60</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Add by name</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
-		<Template>BDT_Normal</Template>
-	</Button>
-	
-	<Editbox item = "BW_EditSpellToBlock">
-		<ScreenID>BW_EditSpellToBlock</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>120</LeftAnchorOffset>
-		<TopAnchorOffset>30</TopAnchorOffset>
-		<RightAnchorOffset>260</RightAnchorOffset>
-		<BottomAnchorOffset>10</BottomAnchorOffset>
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		
-		<Size>
-			<CX>150</CX>
-			<CY>20</CY>
-		</Size>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
-		<Style_Border>true</Style_Border>
-		<TooltipReference>Enter a name for this label here.</TooltipReference>
-	</Editbox>
-
+    <Size>
+      <CX>60</CX>
+      <CY>24</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>Add by name</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+  </Button>
+  <Editbox item = "BW_EditSpellToBlock">
+    <ScreenID>BW_EditSpellToBlock</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>120</LeftAnchorOffset>
+    <TopAnchorOffset>30</TopAnchorOffset>
+    <RightAnchorOffset>260</RightAnchorOffset>
+    <BottomAnchorOffset>10</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <Size>
+      <CX>150</CX>
+      <CY>20</CY>
+    </Size>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <Style_Border>true</Style_Border>
+    <TooltipReference>Enter a name for this label here.</TooltipReference>
+  </Editbox>
   <Button item="BW_BLOCKEDBUFF0_Button">
     <ScreenID>BBuff0</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>550</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -93,12 +87,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF1_Button">
@@ -106,12 +100,12 @@
     <!--<Font>3</Font>   -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>3</Y>
+      <X>48</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>551</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -127,12 +121,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF2_Button">
@@ -140,12 +134,12 @@
     <!--<Font>3</Font>   -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>3</Y>
+      <X>93</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>552</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -161,12 +155,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF3_Button">
@@ -174,12 +168,12 @@
     <!--<Font>3</Font>   -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>49</Y>
+      <X>3</X>
+      <Y>49</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>553</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -195,12 +189,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF4_Button">
@@ -208,12 +202,12 @@
     <!--<Font>3</Font> Default -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>49</Y>
+      <X>48</X>
+      <Y>49</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>554</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -229,12 +223,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF5_Button">
@@ -242,12 +236,12 @@
     <!--<Font>3</Font> Defautl -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>49</Y>
+      <X>93</X>
+      <Y>49</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>555</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -263,12 +257,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF6_Button">
@@ -276,12 +270,12 @@
     <!--<Font>3</Font> Default -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>95</Y>
+      <X>3</X>
+      <Y>95</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>556</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -297,12 +291,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF7_Button">
@@ -310,12 +304,12 @@
     <!--<Font>3</Font> Use defaults -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>95</Y>
+      <X>48</X>
+      <Y>95</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>557</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -331,12 +325,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF8_Button">
@@ -344,12 +338,12 @@
     <!--<Font>3</Font>Defaults-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>95</Y>
+      <X>93</X>
+      <Y>95</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>558</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -365,12 +359,12 @@
 			<SoundFlyby/>
 		-->
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF9_Button">
@@ -378,12 +372,12 @@
     <!--<Font>3</Font>Use Defaults -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>141</Y>
+      <X>3</X>
+      <Y>141</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>559</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -394,12 +388,12 @@
     <!--<RadioGroup/>  -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF10_Button">
@@ -407,12 +401,12 @@
     <!--<Font>3</Font> -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>141</Y>
+      <X>48</X>
+      <Y>141</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>560</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -423,12 +417,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF11_Button">
@@ -436,12 +430,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>141</Y>
+      <X>93</X>
+      <Y>141</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>561</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -452,12 +446,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF12_Button">
@@ -465,12 +459,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>187</Y>
+      <X>3</X>
+      <Y>187</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>562</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -481,12 +475,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF13_Button">
@@ -494,12 +488,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>187</Y>
+      <X>48</X>
+      <Y>187</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>563</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -510,12 +504,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF14_Button">
@@ -523,12 +517,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>187</Y>
+      <X>93</X>
+      <Y>187</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>564</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -539,12 +533,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF15_Button">
@@ -552,12 +546,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>565</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -568,12 +562,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF16_Button">
@@ -581,12 +575,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>566</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -597,12 +591,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF17_Button">
@@ -610,12 +604,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>567</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -626,12 +620,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF18_Button">
@@ -639,12 +633,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>568</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -655,12 +649,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF19_Button">
@@ -668,12 +662,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>569</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -682,12 +676,12 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF20_Button">
@@ -695,12 +689,12 @@
     <!--<Font>3</Font> -->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>141</Y>
+      <X>48</X>
+      <Y>141</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>570</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -711,12 +705,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF21_Button">
@@ -724,12 +718,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>141</Y>
+      <X>93</X>
+      <Y>141</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>571</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -740,12 +734,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF22_Button">
@@ -753,12 +747,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>187</Y>
+      <X>3</X>
+      <Y>187</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>572</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -769,12 +763,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF23_Button">
@@ -782,12 +776,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>48</X>
-			<Y>187</Y>
+      <X>48</X>
+      <Y>187</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>573</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -798,12 +792,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF24_Button">
@@ -811,12 +805,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>93</X>
-			<Y>187</Y>
+      <X>93</X>
+      <Y>187</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>574</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -827,12 +821,12 @@
     <!--<RadioGroup/>-->
     <Template>BDT_RedBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF25_Button">
@@ -840,12 +834,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>575</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -856,12 +850,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF26_Button">
@@ -869,12 +863,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>576</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -885,12 +879,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF27_Button">
@@ -898,12 +892,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>577</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -914,12 +908,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF28_Button">
@@ -927,12 +921,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>578</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -943,12 +937,12 @@
     <!--<RadioGroup/>   -->
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
   <Button item="BW_BLOCKEDBUFF29_Button">
@@ -956,12 +950,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>579</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -970,25 +964,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF30_Button">
+  <Button item="BW_BLOCKEDBUFF30_Button">
     <ScreenID>BBuff30</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>580</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -997,25 +991,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF31_Button">
+  <Button item="BW_BLOCKEDBUFF31_Button">
     <ScreenID>BBuff31</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>581</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1024,25 +1018,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF32_Button">
+  <Button item="BW_BLOCKEDBUFF32_Button">
     <ScreenID>BBuff32</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>582</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1051,25 +1045,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF33_Button">
+  <Button item="BW_BLOCKEDBUFF33_Button">
     <ScreenID>BBuff33</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>583</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1078,25 +1072,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF34_Button">
+  <Button item="BW_BLOCKEDBUFF34_Button">
     <ScreenID>BBuff34</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>584</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1105,25 +1099,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF35_Button">
+  <Button item="BW_BLOCKEDBUFF35_Button">
     <ScreenID>BBuff35</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>585</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1132,25 +1126,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF36_Button">
+  <Button item="BW_BLOCKEDBUFF36_Button">
     <ScreenID>BBuff36</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>586</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1159,25 +1153,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF37_Button">
+  <Button item="BW_BLOCKEDBUFF37_Button">
     <ScreenID>BBuff37</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>587</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1186,25 +1180,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF38_Button">
+  <Button item="BW_BLOCKEDBUFF38_Button">
     <ScreenID>BBuff38</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>588</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1213,25 +1207,25 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-   <Button item="BW_BLOCKEDBUFF39_Button">
+  <Button item="BW_BLOCKEDBUFF39_Button">
     <ScreenID>BBuff39</ScreenID>
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>3</X>
-			<Y>3</Y>
+      <X>3</X>
+      <Y>3</Y>
     </Location>
     <Size>
-			<CX>34</CX>
-			<CY>34</CY>
+      <CX>34</CX>
+      <CY>34</CY>
     </Size>
     <EQType>589</EQType>
     <Style_VScroll>false</Style_VScroll>
@@ -1240,34 +1234,574 @@
     <Style_Checkbox>false</Style_Checkbox>
     <Template>BDT_BlueBuff</Template>
     <DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
+      <X>2</X>
+      <Y>2</Y>
     </DecalOffset>
     <DecalSize>
-			<CX>30</CX>
-			<CY>30</CY>
+      <CX>30</CX>
+      <CY>30</CY>
     </DecalSize>
   </Button>
-<Screen item = "BlockedBuffWnd">
-	<RelativePosition>false</RelativePosition>
-	<Location>
-			<X>415</X>
-			<Y>0</Y>
-	</Location>
-	<Size>
-			<CX>134</CX>
-			<CY>395</CY>
-	</Size>
-	<Style_VScroll>false</Style_VScroll>
-	<Style_HScroll>false</Style_HScroll>
-	<Style_Transparent>false</Style_Transparent>
+  <Button item="BW_BLOCKEDBUFF40_Button">
+    <ScreenID>BBuff40</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>691</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF41_Button">
+    <ScreenID>BBuff41</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>692</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF42_Button">
+    <ScreenID>BBuff42</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>693</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF43_Button">
+    <ScreenID>BBuff43</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>694</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF44_Button">
+    <ScreenID>BBuff44</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>695</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF45_Button">
+    <ScreenID>BBuff45</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>696</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF46_Button">
+    <ScreenID>BBuff46</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>697</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF47_Button">
+    <ScreenID>BBuff47</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>698</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF48_Button">
+    <ScreenID>BBuff48</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>699</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF49_Button">
+    <ScreenID>BBuff49</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>700</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF50_Button">
+    <ScreenID>BBuff50</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>701</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF51_Button">
+    <ScreenID>BBuff51</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>702</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF52_Button">
+    <ScreenID>BBuff52</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>703</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF53_Button">
+    <ScreenID>BBuff53</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>704</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF54_Button">
+    <ScreenID>BBuff54</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>705</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF55_Button">
+    <ScreenID>BBuff55</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>706</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF56_Button">
+    <ScreenID>BBuff56</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>707</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF57_Button">
+    <ScreenID>BBuff57</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>708</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF58_Button">
+    <ScreenID>BBuff58</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>709</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Button item="BW_BLOCKEDBUFF59_Button">
+    <ScreenID>BBuff59</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>34</CX>
+      <CY>34</CY>
+    </Size>
+    <EQType>710</EQType>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Template>BDT_BlueBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>30</CX>
+      <CY>30</CY>
+    </DecalSize>
+  </Button>
+  <Screen item = "BlockedBuffWnd">
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>415</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>134</CX>
+      <CY>395</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
     <Text>Blocked Spells</Text>
-	<DrawTemplate>WDT_Rounded</DrawTemplate>
-	<Style_Titlebar>true</Style_Titlebar>
-	<Style_Closebox>true</Style_Closebox>
-	<Style_Minimizebox>true</Style_Minimizebox>
-	<Style_Border>true</Style_Border>
-	<Style_Sizable>true</Style_Sizable>
+    <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
+    <Style_Closebox>true</Style_Closebox>
+    <Style_Minimizebox>true</Style_Minimizebox>
+    <Style_Border>true</Style_Border>
+    <Style_Sizable>true</Style_Sizable>
     <Pieces>BW_BLOCKEDBUFF0_Button</Pieces>
     <Pieces>BW_BLOCKEDBUFF1_Button</Pieces>
     <Pieces>BW_BLOCKEDBUFF2_Button</Pieces>
@@ -1298,18 +1832,37 @@
     <Pieces>BW_BLOCKEDBUFF27_Button</Pieces>
     <Pieces>BW_BLOCKEDBUFF28_Button</Pieces>
     <Pieces>BW_BLOCKEDBUFF29_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF30_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF31_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF32_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF33_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF34_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF35_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF36_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF37_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF38_Button</Pieces>
-	<Pieces>BW_BLOCKEDBUFF39_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF30_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF31_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF32_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF33_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF34_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF35_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF36_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF37_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF38_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF39_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF40_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF41_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF42_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF43_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF44_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF45_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF46_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF47_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF48_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF49_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF50_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF51_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF52_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF53_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF54_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF55_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF56_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF57_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF58_Button</Pieces>
+    <Pieces>BW_BLOCKEDBUFF59_Button</Pieces>
     <Pieces>BW_AddSpellToBlock</Pieces>
     <Pieces>BW_EditSpellToBlock</Pieces>
-    
   </Screen>
 </XML>
