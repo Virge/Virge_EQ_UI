@@ -4533,7 +4533,7 @@
 		<Pieces>LayoutBox:ETW_Ext22</Pieces>  -->
 	</TileLayoutBox>
 	<LayoutVertical item="ETW_LayoutV">
-		<ResizeVertical>true</ResizeVertical>
+		<ResizeVertical>false</ResizeVertical>
 		<ResizeHorizontal>true</ResizeHorizontal>
 	</LayoutVertical>
 	<Screen item="ETW_HorizontalBarTemplate">
