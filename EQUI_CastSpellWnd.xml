@@ -978,8 +978,8 @@
   </Screen>
   <LayoutVertical item="CSPW_LayoutV">
     <Padding>0</Padding>
-    <ResizeVertical>true</ResizeVertical>
-    <ResizeHorizontal>false</ResizeHorizontal>
+    <ResizeVertical>false</ResizeVertical>
+    <ResizeHorizontal>true</ResizeHorizontal>
   </LayoutVertical>
   <Screen item="CastSpellWnd">
     <Layout>CSPW_LayoutV</Layout>
