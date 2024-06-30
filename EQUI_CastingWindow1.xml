@@ -47,18 +47,13 @@
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>1</LeftAnchorOffset>
     <TopAnchorOffset>2</TopAnchorOffset>
-    <RightAnchorOffset>-32</RightAnchorOffset>
+    <RightAnchorOffset>-2</RightAnchorOffset>
     <BottomAnchorOffset>14</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Text />
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
     <NoWrap>true</NoWrap>
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
@@ -68,23 +63,25 @@
     <!--<Font/>-->
     <RelativePosition>false</RelativePosition>
     <Location>
-      <X>-11290</X>
+      <X>290</X>
       <Y>50</Y>
     </Location>
     <Size>
-      <CX>1</CX>
-      <CY>1</CY>
+      <CX>124</CX>
+      <CY>55</CY>
     </Size>
     <Text>Casting Time</Text>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
-    <Style_Titlebar>False</Style_Titlebar>
+    <TooltipReference>Spell Casting Time</TooltipReference>
+    <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
-    <Style_Border>False</Style_Border>
+    <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
+    <Escapable>false</Escapable>
     <Pieces>Casting_Gauge</Pieces>
     <Pieces>Casting_SpellName</Pieces>
   </Screen>
