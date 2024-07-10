@@ -134,7 +134,7 @@
     </Size>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <Text>Sparxx - Create Guild</Text>
+    <Text>Create Guild</Text>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>

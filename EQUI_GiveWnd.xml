@@ -306,7 +306,7 @@
       <CX>174</CX>
       <CY>155</CY>
     </Size>
-    <Text>Sparxx - Give Wnd</Text>
+    <Text>Give Wnd</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

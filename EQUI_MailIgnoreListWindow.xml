@@ -390,7 +390,7 @@
       <CX>600</CX>
       <CY>300</CY>
     </Size>
-    <Text>Sparxx - Ignore List</Text>
+    <Text>Ignore List</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

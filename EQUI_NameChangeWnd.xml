@@ -148,7 +148,7 @@
       <CX>420</CX>
       <CY>320</CY>
     </Size>
-    <Text>Sparxx - Change Name</Text>
+    <Text>Change Name</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

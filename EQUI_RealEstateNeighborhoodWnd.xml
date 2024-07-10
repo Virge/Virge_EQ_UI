@@ -568,7 +568,7 @@
     </Size>
     <MinHSize>600</MinHSize>
     <MinVSize>200</MinVSize>
-    <Text>Sparxx - Neighborhood Search</Text>
+    <Text>Neighborhood Search</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

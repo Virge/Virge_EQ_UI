@@ -139,7 +139,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <Text>Sparxx - Respawn Options</Text>
+    <Text>Respawn Options</Text>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>

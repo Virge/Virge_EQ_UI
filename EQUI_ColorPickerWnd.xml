@@ -694,7 +694,7 @@
       <CX>140</CX>
       <CY>190</CY>
     </Size>
-    <Text>Sparxx - Choose a color</Text>
+    <Text>Choose a color</Text>
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
     <DrawTemplate>WDT_Rounded</DrawTemplate>

@@ -148,7 +148,7 @@
       <CX>420</CX>
       <CY>270</CY>
     </Size>
-    <Text>Sparxx - Change Pet Name</Text>
+    <Text>Change Pet Name</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

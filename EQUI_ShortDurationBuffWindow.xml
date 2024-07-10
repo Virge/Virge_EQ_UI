@@ -1150,7 +1150,7 @@
 			<CY>210</CY>
 		</Size>
 		<Text>Short Duration Buff Window</Text>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Layout>SDBW_Snap_Both</Layout>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Titlebar>true</Style_Titlebar>

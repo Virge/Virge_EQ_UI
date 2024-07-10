@@ -3403,7 +3403,7 @@
       <CX>395</CX>
       <CY>285</CY>
     </Size>
-    <Text>Sparxx - Bazaar Vendor</Text>
+    <Text>Bazaar Vendor</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

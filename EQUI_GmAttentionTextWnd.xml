@@ -18,7 +18,7 @@
   </STMLbox>
   <Screen item="GmAttentionTextWindow">
     <RelativePosition>false</RelativePosition>
-    <Text>Sparxx - GM Attention Text Window</Text>
+    <Text>GM Attention Text Window</Text>
     <Location>
       <X>200</X>
       <Y>200</Y>

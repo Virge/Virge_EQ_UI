@@ -232,7 +232,7 @@
       <CX>420</CX>
       <CY>365</CY>
     </Size>
-    <Text>Sparxx - Server Transfer List</Text>
+    <Text>Server Transfer List</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

@@ -906,7 +906,7 @@
       <CX>600</CX>
       <CY>414</CY>
     </Size>
-    <Text>Sparxx - Spirit Shroud Selection</Text>
+    <Text>Spirit Shroud Selection</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

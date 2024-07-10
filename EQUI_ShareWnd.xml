@@ -214,7 +214,7 @@
       <CX>450</CX>
       <CY>200</CY>
     </Size>
-    <Text>Sparxx - EQ Share</Text>
+    <Text>EQ Share</Text>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>

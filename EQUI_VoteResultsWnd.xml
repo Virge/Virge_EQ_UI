@@ -239,7 +239,7 @@
     </Size>
     <MinHSize>300</MinHSize>
     <MinVSize>100</MinVSize>
-    <Text>Sparxx - Polls</Text>
+    <Text>Polls</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

@@ -328,7 +328,7 @@
     </Size>
     <MinHSize>460</MinHSize>
     <MinVSize>250</MinVSize>
-    <Text>Sparxx - NPC Journal</Text>
+    <Text>NPC Journal</Text>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>

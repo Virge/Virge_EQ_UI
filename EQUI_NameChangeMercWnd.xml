@@ -144,7 +144,7 @@
       <CX>440</CX>
       <CY>280</CY>
     </Size>
-    <Text>Sparxx - Change Mercenary Name</Text>
+    <Text>Change Mercenary Name</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

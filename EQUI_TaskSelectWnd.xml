@@ -211,7 +211,7 @@
       <CX>330</CX>
       <CY>300</CY>
     </Size>
-    <Text>Sparxx - Task Window</Text>
+    <Text>Task Window</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

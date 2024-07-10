@@ -818,7 +818,7 @@
     <Font>2</Font>
   </Button>
   <Screen item="PlayerCustomizationWnd">
-    <Text>Sparxx - Appearance</Text>
+    <Text>Appearance</Text>
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>200</X>

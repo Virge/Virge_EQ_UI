@@ -725,7 +725,7 @@
       <CX>186</CX>
       <CY>295</CY>
     </Size>
-    <Text>Sparxx - Trade</Text>
+    <Text>Trade</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

@@ -200,7 +200,7 @@
   <Screen item="HeritageSelectionWnd">
     <!--<ScreenID/>-->
     <!--<Font/>-->
-    <Text>Sparxx - Choose Your Heritage</Text>
+    <Text>Choose Your Heritage</Text>
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>200</X>

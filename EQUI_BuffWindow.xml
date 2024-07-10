@@ -1558,7 +1558,7 @@
 			<CY>395</CY>
 		</Size>
 		<Text>Current Buffs</Text>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Layout>BW_Snap_Both</Layout>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Titlebar>true</Style_Titlebar>

@@ -379,7 +379,7 @@
     </Size>
     <MinHSize>350</MinHSize>
     <MinVSize>150</MinVSize>
-    <Text>Sparxx - Plot Search</Text>
+    <Text>Plot Search</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

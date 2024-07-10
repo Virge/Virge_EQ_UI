@@ -220,7 +220,7 @@
       <CX>108</CX>
       <CY>168</CY>
     </Size>
-    <Text>Sparxx - Send</Text>
+    <Text>Send</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

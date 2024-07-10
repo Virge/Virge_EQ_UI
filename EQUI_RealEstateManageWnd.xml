@@ -999,7 +999,7 @@
     </Size>
     <MinHSize>600</MinHSize>
     <MinVSize>420</MinVSize>
-    <Text>Sparxx - Real Estate Management</Text>
+    <Text>Real Estate Management</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

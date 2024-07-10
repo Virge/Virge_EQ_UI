@@ -965,7 +965,7 @@
       <CX>94</CX>
       <CY>899</CY>
     </Size>
-    <Text>Sparxx - Bank</Text>
+    <Text>Bank</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>

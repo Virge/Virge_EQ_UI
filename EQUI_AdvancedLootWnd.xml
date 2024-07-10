@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-
 	<!-- Personal Loot -->
 	<Label item="ADLW_PLLLbl">
 		<ScreenID>ADLW_PLLLbl</ScreenID>
@@ -170,7 +169,6 @@
 		<Pieces>ADLW_PLLSetCmbo</Pieces>
 		<Pieces>ADLW_PLL_LeaveAllBtn</Pieces>
 	</Screen>
-
 	<!-- Construct Loot -->
 	<Label item="ADLW_CLLLbl">
 		<ScreenID>ADLW_CLLLbl</ScreenID>
@@ -353,7 +351,6 @@
 		<Pieces>ADLW_CLLSetCmbo</Pieces>
 		<Pieces>ADLW_CLL_LeaveAllBtn</Pieces>
 	</Screen>
-
 	<!-- General -->
 	<Button item="ADLW_ApplyFiltersCheck">
 		<ScreenID>ADLW_ApplyFiltersCheck</ScreenID>
@@ -449,10 +446,9 @@
 		</Size>
 		<Text>Me</Text>
 	</Label>
-	
 	<Screen item="ADLW_FiltersWnd">
 		<ScreenID>ADLW_FiltersWnd</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>		
+		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
@@ -477,7 +473,6 @@
 		<Pieces>ADLW_CalculatedMasterLooterLabel</Pieces>
 		<Pieces>ADLW_CalculatedMasterLooter</Pieces>
 	</Screen>
-
 	<VerticalLayoutBox item="ADLW_ScreenLayout">
 		<ScreenID>ADLW_ScreenLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -497,7 +492,6 @@
 		<Pieces>Screen:ADLW_PLLWnd</Pieces>
 		<Pieces>Screen:ADLW_CLLWnd</Pieces>
 	</VerticalLayoutBox>
-	
 	<Button item="ADLW_TextLinkTemplate">
 		<ScreenID>ADLW_TextLinkTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -508,7 +502,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TextAlignCenter>false</TextAlignCenter>
 	</Button>
-	
 	<Button item="ADLW_CheckBoxTemplate">
 		<ScreenID>ADLW_CheckBoxTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -523,7 +516,6 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	
 	<Button item="ADLW_ItemBtnTemplate">
 		<ScreenID>ADLW_ItemBtnTemplate</ScreenID>
 		<Size>
@@ -541,7 +533,6 @@
 		</DecalSize>
 		<Template>BDT_LootWndIcon</Template>
 	</Button>
-
 	<Button item="ADLW_StatusTemplate">
 		<ScreenID>ADLW_StatusTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -563,7 +554,6 @@
 		</DecalSize>
 		<Tooltip>Status</Tooltip>
 	</Button>
-
 	<Button item="ADLW_FreeGrabBtnTemplate">
 		<ScreenID>ADLW_FreeGrabBtnTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -583,7 +573,6 @@
 		</ButtonDrawTemplate>
 		<Tooltip>Grab 1 item from the corpse, moving it from your shared list to your personal list.</Tooltip>
 	</Button>
-
 	<Button item="ADLW_LootBtnTemplate">
 		<ScreenID>ADLW_LootBtnTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -603,7 +592,6 @@
 		</ButtonDrawTemplate>
 		<Tooltip>Loot item(s) on corpse(s)</Tooltip>
 	</Button>
-	
 	<Button item="ADLW_LeaveBtnTemplate">
 		<ScreenID>ADLW_LeaveBtnTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -623,7 +611,6 @@
 		</ButtonDrawTemplate>
 		<Tooltip>Leave item(s) on corpse(s)</Tooltip>
 	</Button>
-	
 	<Button item="ADLW_NvrBtnTemplate">
 		<ScreenID>ADLW_NvrBtnTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -642,7 +629,6 @@
 			<PressedFlyby>A_CancelPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	
 	<Button item="ADLW_ActionBtnTemplate">
 		<ScreenID>ADLW_ActionBtnTemplate</ScreenID>
 		<Location>
@@ -656,7 +642,6 @@
 		<Template>BDT_Question</Template>
 		<Tooltip>Action</Tooltip>
 	</Button>
-
 	<Button item="ADLW_ManageBtnTemplate">
 		<ScreenID>ADLW_ManageBtnTemplate</ScreenID>
 		<Location>
@@ -675,12 +660,11 @@
 		</ButtonDrawTemplate>
 		<Tooltip>Manage</Tooltip>
 	</Button>
-	
 	<Screen item="AdvancedLootWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
-			<X>150</X>
-			<Y>100</Y>
+			<X>550</X>
+			<Y>500</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>

@@ -881,7 +881,7 @@
       <CX>600</CX>
       <CY>413</CY>
     </Size>
-    <Text>Sparxx - Select a Character</Text>
+    <Text>Select a Character</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

@@ -167,7 +167,7 @@
       <CX>250</CX>
       <CY>206</CY>
     </Size>
-    <Text>Sparxx - Select a File</Text>
+    <Text>Select a File</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

@@ -1482,7 +1482,7 @@
     </Size>
     <MinHSize>590</MinHSize>
     <MinVSize>360</MinVSize>
-    <Text>Sparxx - Zone Guide</Text>
+    <Text>Zone Guide</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

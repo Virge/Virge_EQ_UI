@@ -255,7 +255,7 @@
     </Size>
     <MinHSize>50</MinHSize>
     <MinVSize>50</MinVSize>
-    <Text>Sparxx - Vote</Text>
+    <Text>Vote</Text>
     <Style_Transparent>false</Style_Transparent>
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>

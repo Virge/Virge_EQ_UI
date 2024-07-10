@@ -12,7 +12,7 @@
     <Style_AutoVScroll>true</Style_AutoVScroll>
     <Style_Border>false</Style_Border>
     <Style_Transparent>true</Style_Transparent>
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <TextColor>
       <R>0</R>
       <G>0</G>
@@ -82,7 +82,7 @@
   </StaticAnimation>
   <Button item="NW_DoneButton">
     <ScreenID>DoneButton</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>214</LeftAnchorOffset>
@@ -110,8 +110,8 @@
   </Button>
   <Button item="NW_ScribeButton">
     <ScreenID>ScribeButton</ScreenID>
-    <!--<Font>3</Font>-->
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -136,7 +136,7 @@
   </Button>
   <Button item="NW_CastSpellButton">
     <ScreenID>CastSpellButton</ScreenID>
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -161,7 +161,7 @@
   </Button>
   <Screen item="NoteWindow">
     <!--<ScreenID/>-->
-    <!--<Font>3</Font>-->
+    <Font>6</Font>
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>200</X>

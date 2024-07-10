@@ -305,7 +305,7 @@
       <CX>600</CX>
       <CY>400</CY>
     </Size>
-    <Text>Sparxx - Select a Reward</Text>
+    <Text>Select a Reward</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>

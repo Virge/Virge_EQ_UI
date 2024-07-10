@@ -1139,7 +1139,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <Text>Sparxx - Voice</Text>
+    <Text>Voice</Text>
     <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>

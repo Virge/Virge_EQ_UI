@@ -15,6 +15,7 @@
     <TopAnchorToTop>true</TopAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Font>5</Font>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -24,8 +25,8 @@
   </Editbox>
   <Screen item="PlayerNotesWindow">
     <!--<ScreenID/>-->
-    <!--<Font>3</Font>-->
-    <RelativePosition>false</RelativePosition>
+    <Font>5</Font>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>200</X>
       <Y>200</Y>
@@ -43,8 +44,8 @@
     <Style_Minimizebox>true</Style_Minimizebox>
     <Style_Border>true</Style_Border>
     <Style_Sizable>true</Style_Sizable>
-    <Text>Sparxx - Notes</Text>
+    <Text>Notes</Text>
     <Pieces>PlayerNotesInput</Pieces>
-    <Font>2</Font>
+    <Font>5</Font>
   </Screen>
 </XML>
