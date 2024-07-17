@@ -145,11 +145,11 @@
     <Text>100%</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>105</X>
-      <Y>172</Y>
+      <X>102</X>
+      <Y>170</Y>
     </Location>
     <Size>
-      <CX>30</CX>
+      <CX>35</CX>
       <CY>14</CY>
     </Size>
     <Text>0</Text>
@@ -162,7 +162,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
     <AlignLeft>false</AlignLeft>
-    <Font>1</Font>
+    <Font>2</Font>
   </Label>
   <Label item="GW_Player_Exp_Percent_Label">
     <ScreenID>GW_Player_Exp_Percent_Label</ScreenID>
@@ -227,11 +227,11 @@
     <Text>100%</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>105</X>
-      <Y>192</Y>
+      <X>102</X>
+      <Y>190</Y>
     </Location>
     <Size>
-      <CX>30</CX>
+      <CX>35</CX>
       <CY>14</CY>
     </Size>
     <Text>0</Text>
@@ -244,7 +244,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
     <AlignLeft>false</AlignLeft>
-    <Font>1</Font>
+    <Font>2</Font>
   </Label>
   <Button item="GW_AAWindow">
     <ScreenID>GW_AAWindow</ScreenID>

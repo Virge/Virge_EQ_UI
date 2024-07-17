@@ -91,7 +91,7 @@
   <Label item="PW_Min-Max_End">
     <ScreenID>PW_Min-Max_End</ScreenID>
     <EQType>129</EQType>
-    <Font>2</Font>
+    <Font>3</Font>
     <Text>999999 / 999999</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -116,7 +116,7 @@
   <Label item="PW_Min-Max_Mana">
     <ScreenID>PlayerMana</ScreenID>
     <EQType>128</EQType>
-    <Font>2</Font>
+    <Font>3</Font>
     <Text>999999 / 999999</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -141,7 +141,7 @@
   <Label item="PW_Min-Max_HP">
     <ScreenID>PW_Min-Max_HP</ScreenID>
     <EQType>70</EQType>
-    <Font>2</Font>
+    <Font>3</Font>
     <Text>999999 / 999999</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -165,7 +165,7 @@
   </Label>
   <Label item="Player_Name">
     <ScreenID>PlayerName</ScreenID>
-    <Font>2</Font>
+    <Font>4</Font>
     <Text>Player Name</Text>
     <TextColor>
       <R>255</R>
@@ -819,11 +819,11 @@
     <RightAnchorOffset>679</RightAnchorOffset>
     <Location>
       <X>2</X>
-      <Y>37</Y>
+      <Y>39</Y>
     </Location>
     <Size>
       <CX>102</CX>
-      <CY>19</CY>
+      <CY>17</CY>
     </Size>
     <GaugeOffsetX>-3</GaugeOffsetX>
     <TextOffsetY>-100</TextOffsetY>
@@ -841,7 +841,7 @@
     </TextColor>
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
-    <Font>2</Font>
+    <Font>3</Font>
     <AutoStretch>false</AutoStretch>
     <TopAnchorOffset>125</TopAnchorOffset>
     <BottomAnchorOffset>135</BottomAnchorOffset>
@@ -850,7 +850,7 @@
     <Style_Tooltip>false</Style_Tooltip>
     <RightAnchorOffset>561</RightAnchorOffset>
     <Location>
-      <X>48</X>
+      <X>52</X>
       <Y>44</Y>
     </Location>
     <Size>
@@ -870,7 +870,7 @@
     </TextColor>
     <NoWrap>true</NoWrap>
     <AlignCenter>true</AlignCenter>
-    <Font>2</Font>
+    <Font>3</Font>
     <AutoStretch>False</AutoStretch>
     <TopAnchorOffset>123</TopAnchorOffset>
     <BottomAnchorOffset>131</BottomAnchorOffset>
@@ -879,7 +879,7 @@
     <Style_Tooltip>false</Style_Tooltip>
     <RightAnchorOffset>501</RightAnchorOffset>
     <Location>
-      <X>128</X>
+      <X>132</X>
       <Y>44</Y>
     </Location>
     <Size>
@@ -981,7 +981,8 @@
     </Location>
     <Size>
       <CX>102</CX>`
-			<CY>19</CY></Size>
+      <CY>19</CY>
+    </Size>
     <GaugeOffsetY>10</GaugeOffsetY>
     <Text>Player Pet Target</Text>
     <TextOffsetY>-2</TextOffsetY>
@@ -1105,11 +1106,11 @@
     <RightAnchorOffset>797</RightAnchorOffset>
     <Location>
       <X>2</X>
-      <Y>77</Y>
+      <Y>79</Y>
     </Location>
     <Size>
       <CX>102</CX>
-      <CY>19</CY>
+      <CY>17</CY>
     </Size>
     <GaugeOffsetX>-3</GaugeOffsetX>
     <TextOffsetX>-100</TextOffsetX>
@@ -1125,7 +1126,7 @@
   <Label item="Player_ManaLabel">
     <ScreenID>ManaLabel</ScreenID>
     <EQType>20</EQType>
-    <Font>2</Font>
+    <Font>3</Font>
     <RelativePosition>true</RelativePosition>
     <Text>100</Text>
     <TextColor>
@@ -1143,7 +1144,7 @@
     <Style_Tooltip>false</Style_Tooltip>
     <RightAnchorOffset>-118</RightAnchorOffset>
     <Location>
-      <X>48</X>
+      <X>52</X>
       <Y>84</Y>
     </Location>
     <Size>
@@ -1154,7 +1155,7 @@
   </Label>
   <Label item="Player_ManaPercLabel">
     <ScreenID>ManPercLabel</ScreenID>
-    <Font>2</Font>
+    <Font>3</Font>
     <Text>%</Text>
     <TextColor>
       <R>255</R>
@@ -1170,7 +1171,7 @@
     <Style_Tooltip>false</Style_Tooltip>
     <RightAnchorOffset>-145</RightAnchorOffset>
     <Location>
-      <X>128</X>
+      <X>132</X>
       <Y>84</Y>
     </Location>
     <Size>
@@ -1184,11 +1185,11 @@
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>2</X>
-      <Y>57</Y>
+      <Y>59</Y>
     </Location>
     <Size>
       <CX>102</CX>
-      <CY>19</CY>
+      <CY>17</CY>
     </Size>
     <GaugeOffsetY>10</GaugeOffsetY>
     <Style_VScroll>false</Style_VScroll>
@@ -1227,7 +1228,7 @@
   <Label item="Player_FatigueLabel">
     <ScreenID>FatigueLabel</ScreenID>
     <EQType>21</EQType>
-    <Font>2</Font>
+    <Font>3</Font>
     <RelativePosition>true</RelativePosition>
     <Text>100</Text>
     <TextColor>
@@ -1245,7 +1246,7 @@
     <Style_Tooltip>false</Style_Tooltip>
     <RightAnchorOffset>673</RightAnchorOffset>
     <Location>
-      <X>48</X>
+      <X>52</X>
       <Y>64</Y>
     </Location>
     <Size>
@@ -1256,7 +1257,7 @@
   </Label>
   <Label item="Player_FatiguePercLabel">
     <ScreenID>FatiguePercLabel</ScreenID>
-    <Font>2</Font>
+    <Font>3</Font>
     <Text>%</Text>
     <TextColor>
       <R>255</R>
@@ -1272,7 +1273,7 @@
     <Style_Tooltip>false</Style_Tooltip>
     <RightAnchorOffset>-143</RightAnchorOffset>
     <Location>
-      <X>128</X>
+      <X>132</X>
       <Y>64</Y>
     </Location>
     <Size>
