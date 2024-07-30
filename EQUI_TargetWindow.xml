@@ -99,7 +99,7 @@
       <CY>10</CY>
     </Size>
   </StaticAnimation>
-  <StaticAnimation item="A_TargetBoxStaticAnimBottom">
+  <StaticAnimation item="A_TargetBoxStaticAnimBottom"><!-- Target Con Color Square -->
     <ScreenID>A_TargetBoxStaticAnimBottom</ScreenID>
     <Animation>A_WhitePixel</Animation>
     <AutoDraw>false</AutoDraw>
@@ -144,7 +144,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
     <AlignLeft>false</AlignLeft>
-    <Font>2</Font>
+    <Font>4</Font>
   </Label>
   <StaticAnimation item="A_TargetBoxStaticAnimLeft">
     <ScreenID>A_TargetBoxStaticAnimLeft</ScreenID>
@@ -212,7 +212,7 @@
   </StaticAnimation>
   <Gauge item="Target_HP">
     <ScreenID>TargetHP</ScreenID>
-    <Font>2</Font>
+    <Font>4</Font>
     <TextColor>
       <R>240</R>
       <G>240</G>
@@ -248,21 +248,21 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
       <X>2</X>
-      <Y>15</Y>
+      <Y>20</Y>
     </Location>
     <Size>
-      <CX>102</CX>
-      <CY>8</CY>
+      <CX>395</CX>
+      <CY>16</CY>
     </Size>
     <Text>Current Target Name</Text>
     <TextOffsetY>-100</TextOffsetY>
     <GaugeOffsetX>-3</GaugeOffsetX>
   </Gauge>
-  <Label item="Target_HPLabel">
+  <Label item="Target_HPLabel"><!-- Target % Value -->
     <ScreenID>HPLabel</ScreenID>
     <EQType>29</EQType>
     <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
+    <Font>4</Font>
     <Text>100</Text>
     <TextColor>
       <R>255</R>
@@ -278,19 +278,19 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <RightAnchorOffset>2</RightAnchorOffset>
     <Location>
-      <X>101</X>
-      <Y>12</Y>
+      <X>400</X>
+      <Y>18</Y>
     </Location>
     <Size>
-      <CX>21</CX>
-      <CY>12</CY>
+      <CX>22</CX>
+      <CY>17</CY>
     </Size>
     <AlignRight>true</AlignRight>
   </Label>
-  <Label item="Target_HPPercLabel">
+  <Label item="Target_HPPercLabel"><!-- Target % Symbol -->
     <ScreenID>HPPercLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
+    <Font>4</Font>
     <Text>%</Text>
     <TextColor>
       <R>255</R>
@@ -306,12 +306,12 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <RightAnchorOffset>-20</RightAnchorOffset>
     <Location>
-      <X>121</X>
-      <Y>12</Y>
+      <X>422</X>
+      <Y>18</Y>
     </Location>
     <Size>
-      <CX>10</CX>
-      <CY>12</CY>
+      <CX>15</CX>
+      <CY>17</CY>
     </Size>
     <AlignRight>true</AlignRight>
   </Label>
@@ -321,7 +321,7 @@
     <Text>Target Of Target Name</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>138</X>
+      <X>468</X>
       <Y>1</Y>
     </Location>
     <Size>
@@ -337,19 +337,19 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <AlignLeft>false</AlignLeft>
-    <Font>2</Font>
+    <AlignLeft>True</AlignLeft>
+    <Font>4</Font>
   </Label>
   <Gauge item="TW_Target of Target Hit Points">
     <ScreenID>Target_of_Target_G</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>140</X>
-      <Y>15</Y>
+      <X>468</X>
+      <Y>20</Y>
     </Location>
     <Size>
-      <CX>102</CX>
-      <CY>8</CY>
+      <CX>395</CX>
+      <CY>16</CY>
     </Size>
     <GaugeOffsetY>-1</GaugeOffsetY>
     <Style_VScroll>false</Style_VScroll>
@@ -376,18 +376,18 @@
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
     </GaugeDrawTemplate>
     <GaugeOffsetX>-3</GaugeOffsetX>
-    <Font>2</Font>
+    <Font>4</Font>
     <TextOffsetX>-111</TextOffsetX>
     <TextOffsetY>-111</TextOffsetY>
   </Gauge>
-  <Label item="TW_ToT_HP_Percent">
+  <Label item="TW_ToT_HP_Percent"><!-- Target of Target % Value -->
     <ScreenID>Target_Target_HP_P</ScreenID>
     <EQType>120</EQType>
     <Text>100</Text>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>214</X>
-      <Y>3</Y>
+      <X>865</X>
+      <Y>18</Y>
     </Location>
     <Size>
       <CX>22</CX>
@@ -403,11 +403,11 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
     <AlignLeft>false</AlignLeft>
-    <Font>1</Font>
+    <Font>4</Font>
   </Label>
-  <Label item="TW_ToT_HP_Percent_Label">
+  <Label item="TW_ToT_HP_Percent_Label"><!-- Target of Target % Symbol -->
     <ScreenID>Percent_L</ScreenID>
-    <Font>1</Font>
+    <Font>4</Font>
     <Text>%</Text>
     <TextColor>
       <R>255</R>
@@ -420,51 +420,51 @@
     </Size>
     <AlignCenter>true</AlignCenter>
     <Location>
-      <X>233</X>
-      <Y>3</Y>
+      <X>888</X>
+      <Y>18</Y>
     </Location>
   </Label>
-	<Button item="Target_Buff_Template">
-		<ScreenID>TargetBuffSlot</ScreenID>
-		<Size>
-			<CX>18</CX>
-			<CY>18</CY>
-		</Size>
-		<Template>BDT_TargetBuff</Template>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<TileLayoutBox item="Target_Buttons">
-		<ScreenID>TargetBuffsButtons</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Style_Transparent>true</Style_Transparent>
-		<Spacing>0</Spacing>
-		<SecondarySpacing>0</SecondarySpacing>
-		<HorizontalFirst>true</HorizontalFirst>
-		<AnchorToTop>true</AnchorToTop>
-		<AnchorToLeft>true</AnchorToLeft>
-		<FirstPieceTemplate>true</FirstPieceTemplate>
-		<Pieces>Target_Buff_Template</Pieces>
-	</TileLayoutBox>
-  <Screen item="Target_BuffWindow">
+  <Button item="Target_Buff_Template">
+    <ScreenID>TargetBuffSlot</ScreenID>
+    <Size>
+      <CX>28</CX>
+      <CY>28</CY>
+    </Size>
+    <Template>BDT_TargetBuff</Template>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>25</CX>
+      <CY>25</CY>
+    </DecalSize>
+  </Button>
+  <TileLayoutBox item="Target_Buttons">
+    <ScreenID>TargetBuffsButtons</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Transparent>true</Style_Transparent>
+    <Spacing>0</Spacing>
+    <SecondarySpacing>0</SecondarySpacing>
+    <HorizontalFirst>true</HorizontalFirst>
+    <AnchorToTop>true</AnchorToTop>
+    <AnchorToLeft>true</AnchorToLeft>
+    <FirstPieceTemplate>true</FirstPieceTemplate>
+    <Pieces>Target_Buff_Template</Pieces>
+  </TileLayoutBox>
+  <Screen item="Target_BuffWindow"><!-- Position and details on target buff icons/window -->
     <ScreenID>BuffWindow</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>25</TopAnchorOffset>
+    <TopAnchorOffset>40</TopAnchorOffset>
     <RightAnchorOffset>2</RightAnchorOffset>
     <BottomAnchorOffset>2</BottomAnchorOffset>
     <BottomAnchorToTop>false</BottomAnchorToTop>
@@ -484,7 +484,7 @@
   <Label item="Target_AggroPctPlayerLabel">
     <ScreenID>Target_AggroPctPlayerLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
+    <Font>4</Font>
     <Text />
     <TextColor>
       <R>255</R>
@@ -510,7 +510,7 @@
   <Label item="Target_AggroNameSecondaryLabel">
     <ScreenID>Target_AggroNameSecondaryLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
+    <Font>4</Font>
     <Text />
     <TextColor>
       <R>255</R>
@@ -538,7 +538,7 @@
   <Label item="Target_AggroPctSecondaryLabel">
     <ScreenID>Target_AggroPctSecondaryLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
+    <Font>4</Font>
     <Text />
     <TextColor>
       <R>255</R>
@@ -570,8 +570,8 @@
       <Y>200</Y>
     </Location>
     <Size>
-      <CX>254</CX>
-      <CY>110</CY>
+      <CX>904</CX>
+      <CY>74</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -582,8 +582,8 @@
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
     <Style_Sizable>true</Style_Sizable>
-    <MinHSize>244</MinHSize>
-    <MinVSize>70</MinVSize>
+    <MinHSize>904</MinHSize>
+    <MinVSize>44</MinVSize>
     <Style_SizableBorderTop>false</Style_SizableBorderTop>
     <Pieces>Target_HP</Pieces>
     <Pieces>Target_HPLabel</Pieces>
@@ -602,6 +602,6 @@
     <Pieces>TW_Target of Target Hit Points</Pieces>
     <Pieces>TW_ToT_HP_Percent</Pieces>
     <Pieces>TW_ToT_HP_Percent_Label</Pieces>
-    <Font>2</Font>
+    <Font>4</Font>
   </Screen>
 </XML>
