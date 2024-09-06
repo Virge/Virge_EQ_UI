@@ -42,9 +42,9 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>255</R>
-      <G>0</G>
-      <B>100</B>
+      <R>160</R>
+      <G>32</G>
+      <B>240</B>
       <Alpha>255</Alpha>
     </FillTint>
     <EQType>149</EQType>
