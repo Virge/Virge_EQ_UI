@@ -1082,6 +1082,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>OW_OQP_RotateLabel</Pieces>
+		<Pieces>OW_OQP_CountLabel</Pieces>
 		<Pieces>Listbox:OW_OQP_QuestList</Pieces>
 	</Screen>
 
@@ -2486,6 +2487,20 @@
 		<PrependText>Max Completed Quests: </PrependText>
 	</Label>
 
+	<Label item="OW_OQP_CountLabel">
+		<ScreenID>OW_OQP_CountLabel</ScreenID>
+		<Location>
+			<X>10</X>
+			<Y>25</Y>
+		</Location>
+		<Size>
+			<CX>250</CX>
+			<CY>40</CY>
+		</Size>
+		<PrependText>Max Active Quests: </PrependText>
+		<TooltipReference>This count does not include any active conversion quests</TooltipReference>
+	</Label>
+
 	<Label item="OW_AQP_CountLabel">
 		<ScreenID>OW_AQP_CountLabel</ScreenID>
 		<Location>
@@ -2499,6 +2514,7 @@
 		<PrependText>Max Active Quests: </PrependText>
 		<TooltipReference>This count does not include any active conversion quests</TooltipReference>
 	</Label>
+
 
 	<Listbox item="OW_AQP_QuestList">
 		<ScreenID>OW_AQP_QuestList</ScreenID>
