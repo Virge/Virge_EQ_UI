@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <Label item="FLW_FoundNoneLabel">
+  <STMLbox item="FLW_NoneFoundLabel">
+		<ScreenID>FLW_NoneFoundLabel</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Font>3</Font>
+		<Text>There is nothing easily found in this zone.</Text>
+		<Size>
+			<CX>100</CX>
+			<CY>100</CY>
+		</Size>
+		<AlignCenter>true</AlignCenter>
+		<Location>
+			<X>7</X>
+			<Y>23</Y>
+		</Location>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<TopAnchorOffset>34</TopAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>165</BottomAnchorOffset>
+	</STMLbox>
+  <!--<Label item="FLW_FoundNoneLabel">
     <ScreenID>FLW_FoundNoneLabel</ScreenID>
     <Font>3</Font>
     <Text>There is nothing easily found in this zone</Text>
@@ -26,7 +48,7 @@
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
     <BottomAnchorOffset>155</BottomAnchorOffset>
-  </Label>
+  </Label>-->
   <Listbox item="FLW_FindLocationList">
     <ScreenID>FLW_FindLocationList</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -178,7 +200,8 @@
     <Pieces>FLW_FilterLocationsLabel</Pieces>
     <Pieces>FLW_FilterGroupCheckbox</Pieces>
     <Pieces>FLW_FilterRaidCheckbox</Pieces>
-    <Pieces>FLW_FoundNoneLabel</Pieces>
+    <!--<Pieces>FLW_FoundNoneLabel</Pieces>-->
+    <Pieces>FLW_NoneFoundLabel</Pieces>
     <Font>2</Font>
   </Screen>
 </XML>
