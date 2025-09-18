@@ -6,7 +6,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>570</X>
+			<X>605</X>
 			<Y>350</Y>
 		</Location>
 		<Size>
@@ -30,8 +30,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>570</X>
-			<Y>386</Y>
+			<X>535</X>
+			<Y>350</Y>
 		</Location>
 		<Size>
 			<CX>50</CX>
@@ -50,7 +50,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>								  
 			<X>570</X>
-			<Y>422</Y>
+			<Y>385</Y>
 		</Location>
 		<Size>
 			<CX>50</CX>
@@ -1189,7 +1189,55 @@
 		</DecalSize>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<Screen item="AAWindow">
+		<Button item="AAW_RunAutoGrant">
+		<ScreenID>AAW_RunAutoGrant</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>540</X>
+			<Y>462</Y>
+		</Location>
+		<Size>
+			<CX>115</CX>
+			<CY>24</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Clicking this button will immediately attempt to grant you all of the AA abilities that you meet the requirements for.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Run Auto-Grant</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Label item="AAW_LastAutoGrantLabel">
+		<ScreenID>AAW_LastAutoGrantLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>540</X>
+			<Y>420</Y>
+		</Location>
+		<Size>
+			<CX>115</CX>
+			<CY>20</CY>
+		</Size>
+		<Text>Last Auto-Grant</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	<Label item="AAW_LastAutoGrantTime">
+		<ScreenID>AAW_LastAutoGrantTime</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>540</X>
+			<Y>437</Y>
+		</Location>
+		<Size>
+			<CX>115</CX>
+			<CY>20</CY>
+		</Size>
+		<Text>N/A</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<TooltipReference>Displays the last time that Auto-Grant ran for your character. A value of "N/A" indicates that Auto-Grant will run the next time you enter the game from character select.</TooltipReference>
+	</Label>
+		<Screen item="AAWindow">
 		<!--<ScreenID/>-->
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -1252,5 +1300,8 @@
 		<Pieces>AAW_MercTypeFilter</Pieces>
 		<Pieces>AAW_ResetFilter</Pieces>
 		<Pieces>AAW_AutoGrantAAsButton</Pieces>
+		<Pieces>AAW_RunAutoGrant</Pieces>
+		<Pieces>AAW_LastAutoGrantLabel</Pieces>
+		<Pieces>AAW_LastAutoGrantTime</Pieces>
 	</Screen>
 </XML>
